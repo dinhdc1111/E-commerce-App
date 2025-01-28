@@ -1,0 +1,17 @@
+.header {
+  height: 84px;
+  box-shadow: 0 6px 6px rgba(0, 0, 0, .06);
+
+  .shopee_svg_icon {
+    height: 42px;
+    width: 190px;
+    object-fit: contain;
+    margin-right: -18px;
+    margin-top: -10px;
+  }
+
+  .nav {
+    margin: 0 auto;
+    width: 1200px;
+  }
+}
