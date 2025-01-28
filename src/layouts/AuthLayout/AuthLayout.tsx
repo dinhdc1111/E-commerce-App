@@ -1,12 +1,16 @@
+import AuthLayoutHeader from 'src/components/AuthLayoutHeader'
+import Footer from 'src/components/Footer'
+
 type AuthLayoutProps = {
   children?: React.ReactNode
 }
 const AuthLayout = ({ children }: AuthLayoutProps) => {
   return (
-    <div>
-      <h1>Auth Layout Component</h1>
+    <>
+      <AuthLayoutHeader />
       {children}
-    </div>
+      <Footer />
+    </>
   )
 }
 export default AuthLayout
